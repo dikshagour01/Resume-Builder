@@ -1,0 +1,93 @@
+body {
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+#cv-templete {
+    display: none;
+}
+
+.myimg {
+    border: 2px solid lavender;
+    border-radius: 50%;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.background {
+    background-color: lavender;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: lavender;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555;
+}
+
+.btn {
+    background-color: lavender;
+    color: #333;
+    border: 1px solid #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        padding: 15px;
+    }
+
+    h1, h2, h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    #cv-form .col.md-6,
+    #cv-form .col.md-6 h3 {
+        text-align: center;
+    }
+
+    #cv-templete .col-md-4,
+    #cv-templete .col-md-8 h1 {
+        text-align: center;
+    }
+
+    .my-2,
+    .my-3,
+    .my-4,
+    .mb-4,
+    .mb-5,
+    .mt-2,
+    .mt-3,
+    .mt-4,
+    .mt-5 {
+        margin: 10px 0;
+    }
+}
+
+.glow-text {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0.3, 0.3), 0 0 10px rgba(255, 255, 255, 0.5);
+}
